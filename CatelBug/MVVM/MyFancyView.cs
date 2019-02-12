@@ -11,13 +11,13 @@
         public MyFancyView(IViewModel viewModel): base(viewModel)
         {
             //this is not working in 5.9 and working with 5.8
-            Init();
+            //Init();
         }
 
         public MyFancyView()
         {
             //this is not working in 5.9 and working with 5.8
-            Init();
+            //Init();
         }
 
         private void Init()
@@ -38,7 +38,7 @@
         {
             base.OnInitialized(e);
             //this is working remove Init call from constructor
-            //Init();
+            Init();
         }
     }
 }
