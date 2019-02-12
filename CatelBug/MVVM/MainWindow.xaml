@@ -1,0 +1,16 @@
+﻿<catel:Window x:Class="CatelBug.MVVM.MainView"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:catel="http://schemas.catelproject.com"
+              xmlns:local="clr-namespace:CatelBug.MVVM"
+              mc:Ignorable="d"
+              MinHeight="512"
+              MinWidth="1024">
+    <Grid>
+        <local:MyFancyView />
+        <!--<ContentPresenter Content="{Binding FancyViewModel, Converter={catel:ViewModelToViewConverter}}"/>-->
+    </Grid>
+    
+</catel:Window>
